@@ -14,10 +14,10 @@ function App() {
      <div className="app_body">
       <Sidebar />
       <Feed />
- {/* App Body
+      <App />
         
         
-        <Widgets /> */}
+       {/* <Widgets /> */}
      </div>
      
     
