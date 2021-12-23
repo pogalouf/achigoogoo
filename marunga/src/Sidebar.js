@@ -12,14 +12,13 @@ import {ExpandMoreOutlined} from '@material-ui/icons';
 function Sidebar (){
     return(
         <div className="sidebar">
-           {/* <SidebarRow src ={user.photoURL} title="user.displayName" />*/}
+           <SidebarRow src ='images/profile1.png' title='pogalouf' />
             <SidebarRow Icon ={LocalHospitalIcon} title="COVID-19 Information Center" />
             <SidebarRow Icon ={EmojiFlagsIcon} title="Pages" />
             <SidebarRow Icon ={PeopleIcon} title="Friends" />
             <SidebarRow Icon ={ChatIcon} title="Messenger" />
             <SidebarRow Icon ={StorefrontIcon} title="Marketplace" />
             <SidebarRow Icon ={VideoLibraryIcon} title="Videos" />
-            <SidebarRow Icon ={LocalHospitalIcon} title="COVID-19 Information Center" />
             <SidebarRow Icon ={ExpandMoreOutlined} title="Marketplace" />
 
         </div>
