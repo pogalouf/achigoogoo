@@ -26,7 +26,7 @@
 .messageSender__top > form > button {
     display: none;
 }
-.messageSender input{
+.messageSender__zinput{
     flex: 1;
 }
 .messageSender__bottom {
