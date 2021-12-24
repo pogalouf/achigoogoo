@@ -11,10 +11,27 @@ function Feed() {
             <StoryReel />
             <MessageSender />
 
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Post 
+            profilePic= "images/profile1.png"
+            message= "Wow this works"
+            timestamp= "This is a timestamp"
+            username= "Paul Galufu"
+            image="images/fitin.png"/>
+            <Post  profilePic= "images/profile1.png"
+            message= "Wow this works"
+            timestamp= "This is a timestamp"
+            username= "Paul Galufu"
+            image=""/>
+            <Post  profilePic= "images/profile1.png"
+            message= "Wow this works"
+            timestamp= "This is a timestamp"
+            username= "Paul Galufu"
+            image="images/mediaM.png"/>
+            <Post  profilePic= "images/profile1.png"
+            message= "Wow this works"
+            timestamp= "This is a timestamp"
+            username= "Paul Galufu"
+            image="images/mediaM.png"/>
 
         </div>
     )
